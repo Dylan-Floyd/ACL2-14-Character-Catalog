@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
 import { usePagination } from './usePagination';
 
-export default function UsePaginationExample({ totalPages = 1 }) {
-  const {
+export default function UsePaginationExample() {
+  let {
     currentPage,
     totalPages,
     setCurrentPage,
@@ -10,6 +10,8 @@ export default function UsePaginationExample({ totalPages = 1 }) {
     viewNextPage,
     viewPrevPage,
   } = usePagination();
+
+  totalPages = totalPages || 1;
 
   useEffect(() => {
     // Mimic an async request by using setTimeout
