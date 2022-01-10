@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should match the snapshot 1`] = `
+<div>
+  <ul
+    aria-label="characters"
+    class="list"
+  >
+    <li
+      class="item"
+    >
+      <a
+        href="/characters/undefined"
+      >
+        <figure>
+          <img
+            alt="bob"
+            class="image"
+            src="asdf.png"
+          />
+          <figcaption
+            class="linkText"
+          >
+            bob
+          </figcaption>
+        </figure>
+      </a>
+    </li>
+    <li
+      class="item"
+    >
+      <a
+        href="/characters/undefined"
+      >
+        <figure>
+          <img
+            alt="bob2"
+            class="image"
+            src="asdf2.png"
+          />
+          <figcaption
+            class="linkText"
+          >
+            bob2
+          </figcaption>
+        </figure>
+      </a>
+    </li>
+  </ul>
+</div>
+`;
